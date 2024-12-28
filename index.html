@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WebMimar - Profesyonel Web Tasarım ve Geliştirme Hizmetleri">
-    <title>WebMimar - Ana Sayfa</title>
+    
+    <!-- SEO Meta Etiketleri -->
+    <title>WebMimar - Profesyonel Web Tasarım ve Yazılım Hizmetleri</title>
+    <meta name="description" content="Modern ve profesyonel web tasarım, e-ticaret ve SEO hizmetleri. Markanızı dijital dünyada en iyi şekilde temsil ediyoruz.">
+    <meta name="keywords" content="web tasarım, web yazılım, e-ticaret, seo, dijital pazarlama, istanbul">
+    <meta name="author" content="WebMimar">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://webmimar.com/">
+    <meta property="og:title" content="WebMimar - Profesyonel Web Tasarım ve Yazılım Hizmetleri">
+    <meta property="og:description" content="Modern ve profesyonel web tasarım, e-ticaret ve SEO hizmetleri. Markanızı dijital dünyada en iyi şekilde temsil ediyoruz.">
+    <meta property="og:image" content="https://webmimar.com/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://webmimar.com/">
+    <meta property="twitter:title" content="WebMimar - Profesyonel Web Tasarım ve Yazılım Hizmetleri">
+    <meta property="twitter:description" content="Modern ve profesyonel web tasarım, e-ticaret ve SEO hizmetleri. Markanızı dijital dünyada en iyi şekilde temsil ediyoruz.">
+    <meta property="twitter:image" content="https://webmimar.com/images/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://webmimar.com/">
+
+    <!-- Mevcut CSS ve Font bağlantıları -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -29,24 +60,67 @@
 
     <main>
         <section class="hero">
-            <div class="blueprint-overlay"></div>
-            <h2><i class="fas fa-drafting-compass"></i> WebMimar</h2>
-            <p>Dijital Dünyada Mimari Mükemmellik</p>
-            <div class="hero-features">
-                <div class="hero-feature">
-                    <i class="fas fa-ruler-combined"></i>
-                    <span>Ölçeklenebilir Tasarım</span>
+            <div class="hero-content">
+                <h1>Modern Web Tasarım ve Yazılım Çözümleri</h1>
+                <div class="hero-separator">
+                    <span class="line"></span>
+                    <i class="fas fa-square"></i>
+                    <span class="line"></span>
                 </div>
-                <div class="hero-feature">
-                    <i class="fas fa-cubes"></i>
-                    <span>Sağlam Altyapı</span>
+                <p>Markanızı dijital dünyada en iyi şekilde temsil ediyoruz</p>
+                <a href="contact.html" class="cta-button">
+                    <span>Projenizi Planlayalım</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="why-us">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Neden WebMimar?</h2>
+                    <div class="separator">
+                        <span class="line"></span>
+                        <i class="fas fa-square"></i>
+                        <span class="line"></span>
+                    </div>
+                    <p>Modern ve profesyonel çözümlerle işinizi dijital dünyada öne çıkarıyoruz</p>
                 </div>
-                <div class="hero-feature">
-                    <i class="fas fa-pencil-ruler"></i>
-                    <span>Detaylı Planlama</span>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Hızlı Teslimat</h3>
+                        <p>Projelerinizi söz verdiğimiz sürede, eksiksiz teslim ediyoruz.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobil Uyumlu</h3>
+                        <p>Tüm projelerimiz mobil cihazlarla tam uyumlu olarak geliştirilir.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <h3>Kolay Yönetim</h3>
+                        <p>Kullanıcı dostu yönetim paneli ile sitenizi kolayca yönetin.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>7/24 Destek</h3>
+                        <p>Teknik destek ekibimiz her zaman yanınızda.</p>
+                    </div>
                 </div>
             </div>
-            <a href="contact.html" class="cta-button">Projenizi Planlayalım</a>
         </section>
 
         <section class="features">
@@ -83,8 +157,10 @@
                 <p>Profesyonel Web Çözümleri</p>
             </div>
             <div class="footer-contact">
-                <p>Email: info@webmimar.com</p>
-                <p>Tel: +90 XXX XXX XX XX</p>
+                <p>Email: webmimarijob@gmail.com</p>
+                <p><a href="https://wa.me/905331948396" target="_blank" class="whatsapp-link">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: 0533 194 83 96
+                </a></p>
             </div>
             <div class="footer-social">
                 <a href="#"><i class="fab fa-facebook"></i></a>
