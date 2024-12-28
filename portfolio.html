@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WebMimar - Tamamlanan Projeler ve Referanslar">
+    <title>Referanslar - WebMimar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <div class="logo-group">
+                    <i class="fas fa-drafting-compass logo-icon"></i>
+                    <h1>WebMimar</h1>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="services.html">Hizmetler</a></li>
+                <li><a href="portfolio.html" class="active">Referanslar</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="portfolio-hero">
+            <div class="hero-content">
+                <h1>Projelerimiz</h1>
+                <div class="hero-separator">
+                    <span class="line"></span>
+                    <i class="fas fa-square"></i>
+                    <span class="line"></span>
+                </div>
+                <p>Başarıyla tamamladığımız projelerden örnekler</p>
+            </div>
+        </section>
+
+        <!-- Filtreler -->
+        <section class="portfolio-filters">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Tümü</button>
+                    <button class="filter-btn" data-filter="corporate">Kurumsal</button>
+                    <button class="filter-btn" data-filter="ecommerce">E-Ticaret</button>
+                    <button class="filter-btn" data-filter="landing">Landing Page</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projeler Grid -->
+        <section class="portfolio-grid">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- E-Ticaret Projeleri -->
+                    <div class="project-card" data-category="ecommerce">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8" alt="ModaVip E-Ticaret">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>ModaVip</h3>
+                                    <p>E-Ticaret Platformu</p>
+                                    <div class="project-tech">
+                                        <span>WooCommerce</span>
+                                        <span>WordPress</span>
+                                    </div>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ecommerce">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03" alt="TechMarket E-Ticaret">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>TechMarket</h3>
+                                    <p>Elektronik E-Ticaret Sitesi</p>
+                                    <div class="project-tech">
+                                        <span>Shopify</span>
+                                        <span>Custom Theme</span>
+                                    </div>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kurumsal Projeler -->
+                    <div class="project-card" data-category="corporate">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f" alt="Adalet Hukuk">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>Adalet Hukuk</h3>
+                                    <p>Kurumsal Hukuk Sitesi</p>
+                                    <div class="project-tech">
+                                        <span>React.js</span>
+                                        <span>Node.js</span>
+                                    </div>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="corporate">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" alt="YapıTek İnşaat">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>YapıTek İnşaat</h3>
+                                    <p>Kurumsal İnşaat Sitesi</p>
+                                    <div class="project-tech">
+                                        <span>Vue.js</span>
+                                        <span>Laravel</span>
+                                    </div>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Landing Pages -->
+                    <div class="project-card" data-category="landing">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c" alt="FitLife App">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>FitLife App</h3>
+                                    <p>Uygulama Landing Page</p>
+                                    <div class="project-tech">
+                                        <span>HTML5</span>
+                                        <span>GSAP</span>
+                                    </div>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="landing">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="CloudManager">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>CloudManager</h3>
+                                    <p>SaaS Landing Page</p>
+                                    <div class="project-tech">
+                                        <span>Next.js</span>
+                                        <span>Tailwind</span>
+                                    </div>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- İstatistikler -->
+        <section class="portfolio-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Tamamlanan Proje</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-star"></i>
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Mutlu Müşteri</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-trophy"></i>
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Ödül</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="portfolio-cta">
+            <div class="container">
+                <h2>Sıradaki Proje Sizin Olabilir</h2>
+                <p>Hayalinizdeki web sitesini birlikte tasarlayalım</p>
+                <a href="contact.html" class="cta-button">Bizimle İletişime Geçin</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer içeriği -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html> 
